@@ -1,0 +1,97 @@
+<!Doctype HTML>
+<html>
+
+    <head>
+        <title>Lyric db | Nick's Project</title>
+
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+        <!-- Custom css -->
+        <link type="text/css" rel="stylesheet" href="style.css" />
+
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+
+<!-- navigation -->
+
+        <nav>
+          <div class="nav-wrapper cyan darken-1">
+            <a href="#" class="brand-logo center"><img src="images/lyricsdb.png"></img></a>
+            <ul id="nav-mobile" class="left hide-on-med-and-down">
+                <li><a href="sass.html"></a></li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+
+<!-- search -->
+
+        <div class="container" id="pad">
+
+            </br>
+                <h5 class="center-align cyan-text text-darken-3">Search for the lyrics of your favorite song.</h5>
+            </br>
+            <div class="row">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field cyan-text text-darken-3 col s6">
+                            <input class="input-field" type="search" id="getTheArtist" placeholder="Arist name">
+                        </div>
+                        <div class="input-field cyan-text text-darken-3 col s6">
+                            <input type="search" id="getTheSong" placeholder="song title">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <button id="searchButton" onclick="getData()">Search</button>
+
+            <span style="white-space: pre-line"><h2 id="artistName" class="cyan-text text-darken-3"></h2></span>
+            <span style="white-space: pre-line"><h5 id="songTitle" class="cyan-text text-darken-2"></h5></span>
+
+            <span style="white-space: pre-line"><p class="blue-grey-text text-lighten-1" id="demo"></p></span>
+
+      </div>
+    <!-- Footer -->
+</br>
+</br>
+    <footer class="footer cyan darken-1">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Lyrics data base</h5>
+                    <p class="grey-text text-lighten-4">This lyrics database was created as an intro to web development class.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search">API</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide">Java Script Guide</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://open.spotify.com/user/1237215214">Nick's Spotify</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright grey-text text-lighten-3 cyan darken-3">
+            <div class="container">
+            © 2014 Copyright Text
+            </div>
+          </div>
+        </div>
+    </footer>
+
+
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script src="./custom.js"></script>
+    </body>
+
+</html>
