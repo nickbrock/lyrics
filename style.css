@@ -1,3 +1,13 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
 button {
 
     background: transparent;
@@ -6,21 +16,17 @@ button {
 }
 
 #pad{
-  padding-top: 200px;
+  padding-top: 7px;
 }
 
-body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
+#artistName {
+  margin-top: -150px;
 }
 
-main {
-  flex: 1 0 auto;
+#songTitle {
+  margin-top: -50px;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+#demo {
+  margin-top: -25px;
 }
